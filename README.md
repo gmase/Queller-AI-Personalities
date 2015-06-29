@@ -8,66 +8,66 @@ This mod adds additional personalities (also incorrectly called difficulty level
 ## PERSONALITIES
 
 - Bronze
--- Economy first opening
--- One army
--- Techs as soon as possible
--- Goes orbital as soon as possible
--- Turtles
--- Poor troop selection
--- Doesn't scout
--- Doesn't react to what the enemy is doing
--- Loves fabbers
--- Loves static defence/offence
--- Poor use of fabbers
--- Doesn't think about running costs
--- No micro
+ - Economy first opening
+ - One army
+ - Techs as soon as possible
+ - Goes orbital as soon as possible
+ - Turtles
+ - Poor troop selection
+ - Doesn't scout
+ - Doesn't react to what the enemy is doing
+ - Loves fabbers
+ - Loves static defence/offence
+ - Poor use of fabbers
+ - Doesn't think about running costs
+ - No micro
 
 - Silver
--- Factory first opening
--- Few armies
--- Techs early
--- Goes orbital early
--- Expands slowly
--- Poor troop selection
--- Barely scouts
--- Doesn't react to what the enemy is doing
--- Likes fabbers
--- Floats economy
--- No micro
+ - Factory first opening
+ - Few armies
+ - Techs early
+ - Goes orbital early
+ - Expands slowly
+ - Poor troop selection
+ - Barely scouts
+ - Doesn't react to what the enemy is doing
+ - Likes fabbers
+ - Floats economy
+ - No micro
 
 - Gold
--- Smart factory first opening
--- Some armies
--- Prefers T1
--- Expands OK
--- Good troop selection
--- OK scouting
--- Some reaction to opponent's play
--- Dislikes fabbers
--- Stalls economy
--- Average micro
+ - Smart factory first opening
+ - Some armies
+ - Prefers T1
+ - Expands OK
+ - Good troop selection
+ - OK scouting
+ - Some reaction to opponent's play
+ - Dislikes fabbers
+ - Stalls economy
+ - Average micro
 
 - Platinum
--- Smart factory first opening
--- Numerous armies
--- Techs smartly
--- Goes orbital smartly
--- Expands quickly
--- Excellent troop selection
--- Smartly reacts to opponent's play
--- Good economy handling
--- Best micro
+ - Smart factory first opening
+ - Numerous armies
+ - Techs smartly
+ - Goes orbital smartly
+ - Expands quickly
+ - Excellent troop selection
+ - Smartly reacts to opponent's play
+ - Good economy handling
+ - Best micro
 
 - Uber
--- Smart factory first opening
--- Unlimited armies
--- Techs smartly
--- Goes orbital smartly
--- Expands quickly
--- Excellent troop selection
--- Smartly reacts to opponent's play
--- Great economy handling
--- Best micro
+ - Smart factory first opening
+ - Unlimited armies
+ - Techs smartly
+ - Goes orbital smartly
+ - Expands quickly
+ - Excellent troop selection
+ - Smartly reacts to opponent's play
+ - Great economy handling
+ - Best micro
 
 ## THANKS TO
 

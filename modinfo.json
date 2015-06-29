@@ -12,10 +12,5 @@
     "category": [
         "ai"
     ],
-    "id": "qQuellerAIPersonalitiesDev",
-    "icon": "http://i.imgur.com/cFJeCgf.gif",
-	"dependencies": [
-        "com.pa.quitch.qQuellerAIDev"
-    ],
-	"priority": 100
+    "priority": 100
 }
