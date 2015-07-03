@@ -74,7 +74,7 @@ This mod adds additional personalities (also incorrectly called difficulty level
  - Goes orbital smartly
  - Expands quickly
  - Best troop selection
- - Smartly reacts to oponent's play
+ - Smartly reacts to opponent's play
  - Good fabber to troop balance
  - Appropriate use of static defence/offence
  - Best economy handling
