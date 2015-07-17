@@ -1,3 +1,7 @@
+dev
+
+Added personalities to be used by the Imperial Legion faction support in Queller
+
 v1.0
 
 First release
