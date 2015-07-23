@@ -1,6 +1,8 @@
-dev
+v1.1-dev
 
-Added personalities to be used by the Imperial Legion faction support in Queller
+Reduced metal stall at Uber
+Standardised the Gold offset
+Platinum is a little worse at predicting metal drain
 
 v1.0
 
