@@ -4,6 +4,7 @@ Reduced metal stall at Uber
 Standardised the Gold offset
 Platinum is a little worse at predicting metal drain
 Added Uber subpersonalities
+Added vanilla personalities
 
 v1.0
 
