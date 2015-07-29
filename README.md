@@ -87,6 +87,7 @@ You should download and install this mod via the [PA Mod Manager (PAMM)](https:/
  - Best micro
  - Best threat assessments
  - Will use eco bonuses better than other levels
+ - Selectable subpersonality
 
 ## THANKS TO
 
