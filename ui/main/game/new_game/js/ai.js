@@ -174,8 +174,8 @@ function ai_types() {
         'Gold': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.67,
-            metal_demand_check: 0.62,
-            energy_demand_check: 0.62,
+            metal_demand_check: 0.82,
+            energy_demand_check: 0.82,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -219,7 +219,7 @@ function ai_types() {
             adv_eco_mod_alone: 0.85,
             personality_tags:
             [
-                "uber"
+                "uber",
 				"adaptive"
             ]
         },
@@ -361,7 +361,10 @@ function ai_types() {
             neural_data_mod: 1.0,
             adv_eco_mod: 1.3,
             adv_eco_mod_alone: 0.85,
-            personality_tag: "experimental"
+            personality_tags:
+            [
+                "experimental"
+            ]
         },
     };
 
