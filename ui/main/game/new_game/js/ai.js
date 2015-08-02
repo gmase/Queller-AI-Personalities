@@ -277,7 +277,7 @@ function ai_types() {
 				"ecoboom"
             ]
         },
-		'Uber Grenadier': {
+		'Uber Infernodier': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
             metal_demand_check: 0.72,
@@ -292,7 +292,7 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"grenadier"
+				"infernodier"
             ]
         },
 		'Uber Mix': {
@@ -328,7 +328,7 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"techrush"
+				"tech"
             ]
         },
 		'Uber Turtle': {
