@@ -219,8 +219,7 @@ function ai_types() {
             adv_eco_mod_alone: 0.85,
             personality_tags:
             [
-                "uber",
-				"adaptive"
+                "uber"
             ]
         },
 		'Uber Air': {
@@ -346,6 +345,7 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
+				"tech",
 				"turtle"
             ]
         },
