@@ -1,37 +1,4 @@
-
 function ai_types() {
-
-    /* 
-    {
-        idle: true | false,
-
-        percent_vehicle [0 1],
-		percent_bot [0 1],
-        percent_air [0 1],
-        percent_naval [0 1],
-		percent_orbital [0 1],
-        
-        personality_tag: <string>,
-
-        metal_drain_check [0 1],
-        energy_drain_check [0 1],
-        metal_demand_check [0 1],
-        energy_demand_check [0 1],
-
-        micro_type 0:none | 1:platoon | 2:squad,
-
-        go_for_the_kill: true | false,
-        priority_scout_metal_spots: true | false,
-        enable_commander_danger_responses: true | false,
-        
-        neural_data_mod: [0 ... ]
-        adv_eco_mod: [0 ... ]
-        adv_eco_mod_alone: [0 ... ]
-        factory_build_delay_min: [0 ... ] (in seconds)
-        factory_build_delay_max: [0 ... ] (in seconds)
-		unable_to_expand_delay: [0 ... ] (in seconds)
-    } 
-    */
 
     var result = {
         'Idle': {
@@ -70,7 +37,7 @@ function ai_types() {
             personality_tags:
             [
                 "vanilla",
-				"PreventsWaste"
+                "PreventsWaste"
             ],
             metal_drain_check: 0.94,
             energy_drain_check: 1.05,
@@ -95,7 +62,7 @@ function ai_types() {
             personality_tags:
             [
                 "vanilla",
-				"PreventsWaste"
+                "PreventsWaste"
             ],
             metal_drain_check: 0.74,
             energy_drain_check: 0.85,
@@ -198,8 +165,8 @@ function ai_types() {
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
             neural_data_mod: 1.05,
-            adv_eco_mod: 1.3,
-            adv_eco_mod_alone: 0.85,
+            adv_eco_mod: 1.25,
+            adv_eco_mod_alone: 0.9,
             personality_tags:
             [
                 "platinum"
@@ -208,8 +175,8 @@ function ai_types() {
 		'Uber': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -225,8 +192,8 @@ function ai_types() {
 		'Uber Air': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -243,26 +210,27 @@ function ai_types() {
 		'Uber Dox': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
-            neural_data_mod: 1.0,
+            neural_data_mod: 0.5,
             adv_eco_mod: 1.3,
             adv_eco_mod_alone: 0.85,
             personality_tags:
             [
                 "uber",
+				"botonly",
 				"doxrush"
             ]
         },
 		'Uber Eco': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -273,14 +241,34 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
+				"techrush",
 				"ecoboom"
+            ]
+        },
+		'Uber Grenadier': {
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 1.0,
+            adv_eco_mod: 1.3,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+				"botonly",
+				"puregrenadier"
             ]
         },
 		'Uber Infernodier': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -294,11 +282,11 @@ function ai_types() {
 				"infernodier"
             ]
         },
-		'Uber Mix': {
+		'Uber Tank': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -309,14 +297,14 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"mix"
+				"oldschool"
             ]
         },
 		'Uber Tech': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -327,14 +315,14 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"tech"
+				"techrush"
             ]
         },
 		'Uber Turtle': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.62,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -345,25 +333,8 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"tech",
+				"techrush",
 				"turtle"
-            ]
-        },
-		'Experimental': {
-            metal_drain_check: 0.54,
-            energy_drain_check: 0.57,
-            metal_demand_check: 0.72,
-            energy_demand_check: 0.72,
-            micro_type: 2,
-            go_for_the_kill: true,
-            priority_scout_metal_spots: true,
-            enable_commander_danger_responses: true,
-            neural_data_mod: 1.0,
-            adv_eco_mod: 1.3,
-            adv_eco_mod_alone: 0.85,
-            personality_tags:
-            [
-                "experimental"
             ]
         },
     };
