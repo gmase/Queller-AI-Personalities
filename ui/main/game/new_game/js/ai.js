@@ -191,9 +191,9 @@ function ai_types() {
         },
 		'Uber Air': {
             metal_drain_check: 0.54,
-            energy_drain_check: 0.57,
+            energy_drain_check: 0.65,
             metal_demand_check: 0.75,
-            energy_demand_check: 0.62,
+            energy_demand_check: 0.8,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -204,7 +204,8 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"airswarm"
+				"airswarm",
+				"botonly"
             ]
         },
 		'Uber Dox': {
@@ -236,13 +237,14 @@ function ai_types() {
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
             neural_data_mod: 1.0,
-            adv_eco_mod: 1.3,
-            adv_eco_mod_alone: 0.85,
+            adv_eco_mod: 1.0,
+            adv_eco_mod_alone: 0.65,
             personality_tags:
             [
                 "uber",
+				"ecoboom",
 				"techrush",
-				"ecoboom"
+				"threefabber"
             ]
         },
 		'Uber Grenadier': {
@@ -311,11 +313,12 @@ function ai_types() {
             enable_commander_danger_responses: true,
             neural_data_mod: 1.0,
             adv_eco_mod: 1.0,
-            adv_eco_mod_alone: 0.85,
+            adv_eco_mod_alone: 0.65,
             personality_tags:
             [
                 "uber",
-				"techrush"
+				"techrush",
+				"threefabber"
             ]
         },
 		'Uber Turtle': {
@@ -329,7 +332,7 @@ function ai_types() {
             enable_commander_danger_responses: true,
             neural_data_mod: 1.0,
             adv_eco_mod: 1.0,
-            adv_eco_mod_alone: 0.85,
+            adv_eco_mod_alone: 0.65,
             personality_tags:
             [
                 "uber",
