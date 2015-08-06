@@ -87,7 +87,7 @@ function ai_types() {
                 "vanilla",
 				"PreventsWaste"
             ],
-            metal_drain_check: 0.52,
+            metal_drain_check: 0.54,
             energy_drain_check: 0.65,
             metal_demand_check: 0.71,
             energy_demand_check: 0.8,
