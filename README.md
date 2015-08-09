@@ -95,6 +95,11 @@ By default, Queller at Uber level will adapt its play to try and suit the system
 
 Normal through Absurd are the standard difficulties and will use the vanilla AI rather than Queller.
 
+- Adaptive
+ - Primary bot focus
+ - Will make decisions based on map size and enemy forces
+ - Planned to become the default personality once the AI platoon attack bug is fixed
+
 - Air
  - Near total focus on air units
  - Will develop naval as normal
@@ -120,6 +125,7 @@ Normal through Absurd are the standard difficulties and will use the vanilla AI 
  - Quickly switches to an Infernos and Grenadiers composition
 
 - Tank
+ - Currently the default Uber personality
  - Almost identical to Queller's fighting style prior to v2.1
  - Will fight primarily using the Bolo
  - May open with a small Dox presence

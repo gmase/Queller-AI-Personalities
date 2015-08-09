@@ -176,7 +176,25 @@ function ai_types() {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
             metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 1.0,
+            adv_eco_mod: 1.3,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+				"oldschool"
+            ]
+        },
+		'Uber Adaptive': {
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -212,7 +230,7 @@ function ai_types() {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
             metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
+            energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -229,9 +247,9 @@ function ai_types() {
         },
 		'Uber Eco': {
             metal_drain_check: 0.54,
-            energy_drain_check: 0.57,
-            metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
+            energy_drain_check: 0.6,
+            metal_demand_check: 0.71,
+            energy_demand_check: 0.75,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -251,7 +269,7 @@ function ai_types() {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
             metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
+            energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -270,7 +288,7 @@ function ai_types() {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
             metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
+            energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -284,29 +302,11 @@ function ai_types() {
 				"infernodier"
             ]
         },
-		'Uber Tank': {
-            metal_drain_check: 0.54,
-            energy_drain_check: 0.57,
-            metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
-            micro_type: 2,
-            go_for_the_kill: true,
-            priority_scout_metal_spots: true,
-            enable_commander_danger_responses: true,
-            neural_data_mod: 1.0,
-            adv_eco_mod: 1.3,
-            adv_eco_mod_alone: 0.85,
-            personality_tags:
-            [
-                "uber",
-				"oldschool"
-            ]
-        },
 		'Uber Tech': {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
             metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
+            energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
@@ -325,7 +325,7 @@ function ai_types() {
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
             metal_demand_check: 0.75,
-            energy_demand_check: 0.67,
+            energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
