@@ -1,3 +1,22 @@
-v1.0
+# CHANGELOG
 
-First release
+#### v1.1 - 2015/08/09
+
+- Reduced metal stall at Uber
+- Standardised the Gold offset
+- Platinum is a little worse at predicting metal drain
+- Added Uber subpersonalities
+ - Adaptive
+ - Air
+ - Dox
+ - Eco
+ - Grenadier
+ - Infernodier
+ - Tech
+ - Turtle
+- Added vanilla personalities
+- Reduced energy float
+
+#### v1.0 - 2015/07/03
+
+- First release
