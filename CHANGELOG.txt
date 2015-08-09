@@ -1,6 +1,6 @@
 # CHANGELOG
 
-#### v1.1
+#### v1.1 - 2015/08/09
 
 - Reduced metal stall at Uber
 - Standardised the Gold offset
@@ -17,6 +17,6 @@
 - Added vanilla personalities
 - Reduced energy float
 
-#### v1.0
+#### v1.0 - 2015/07/03
 
 - First release
