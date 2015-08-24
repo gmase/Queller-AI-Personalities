@@ -1,21 +1,22 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.qQuellerAIPersonalitiesDev",
-  "display_name": "Queller AI Personalities DEV",
-  "description": "AI personalities for use with the Queller AI server mod",
+  "identifier": "com.pa.quitch.qQuellerAIPersonalities",
+  "display_name": "Queller AI Personalities",
+  "description": "AI personalities for use with the Queller AI server mod.",
   "author": "Quitch",
-  "version": "dev",
-  "build": "85423",
-  "date": "2015/08/09",
+  "version": "1.1.1",
+  "build": "86422",
+  "date": "2015/08/24",
   "signature": "not yet implemented",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-beta-v0-5.65795/",
   "category": [
-    "ai"
+    "ai",
+	"classic"
   ],
-  "id": "qQuellerAIPersonalitiesDev",
+  "id": "qQuellerAIPersonalities",
   "icon": "http://i.imgur.com/cFJeCgf.gif",
   "dependencies": [
-    "com.pa.quitch.qQuellerAIDev"
+    "com.pa.quitch.qQuellerAI"
   ],
   "priority": 100
 }
