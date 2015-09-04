@@ -1,10 +1,10 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.qQuellerAIPersonalities",
-  "display_name": "Queller AI Personalities",
+  "identifier": "com.pa.quitch.qQuellerAIPersonalitiesDev",
+  "display_name": "Queller AI Personalities DEV",
   "description": "AI personalities for use with the Queller AI server mod.",
   "author": "Quitch",
-  "version": "1.2",
+  "version": "dev",
   "build": "86765",
   "date": "2015/09/04",
   "signature": "not yet implemented",
@@ -13,10 +13,10 @@
     "ai",
 	"titans"
   ],
-  "id": "qQuellerAIPersonalities",
+  "id": "qQuellerAIPersonalitiesDev",
   "icon": "http://i.imgur.com/cFJeCgf.gif",
   "dependencies": [
-    "com.pa.quitch.qQuellerAI"
+    "com.pa.quitch.qQuellerAIDev"
   ],
   "priority": 100
 }
