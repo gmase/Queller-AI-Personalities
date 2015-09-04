@@ -4,14 +4,14 @@
   "display_name": "Queller AI Personalities",
   "description": "AI personalities for use with the Queller AI server mod.",
   "author": "Quitch",
-  "version": "1.1.1",
-  "build": "86422",
-  "date": "2015/08/24",
+  "version": "1.2",
+  "build": "86765",
+  "date": "2015/09/04",
   "signature": "not yet implemented",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-beta-v0-5.65795/",
   "category": [
     "ai",
-	"classic"
+	"titans"
   ],
   "id": "qQuellerAIPersonalities",
   "icon": "http://i.imgur.com/cFJeCgf.gif",

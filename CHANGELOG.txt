@@ -1,5 +1,17 @@
 # CHANGELOG
 
+#### v1.2 - 2015/09/04
+
+NOW DESIGNED SOLELY FOR TITANS
+
+- Turtle now uses a three fabber opening
+- Removed the following subpersonalities due to the grenadier rebalancing in TITANS
+ - Adaptive
+ - Grenadier
+ - Infernodier
+- Gold now has a lower micro setting
+- Rebalance of all eco values for all personalities
+
 #### v1.1.1 - 2015/08/24
 
 - Updated to work with latest patch
