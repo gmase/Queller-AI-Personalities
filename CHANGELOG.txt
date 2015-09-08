@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### v1.x
+
+- Added a new subpersonality - Uber Bot
+
 #### v1.2 - 2015/09/04
 
 NOW DESIGNED SOLELY FOR TITANS

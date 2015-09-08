@@ -15,7 +15,7 @@ function ai_types() {
             personality_tags:
             [
                 "SlowerExpansion",
-				"vanilla"
+                "vanilla"
             ],
             metal_drain_check: 0.14,
             energy_drain_check: 0.25,
@@ -52,7 +52,7 @@ function ai_types() {
             personality_tags:
             [
                 "PreventsWaste",
-				"vanilla"
+                "vanilla"
             ],
             metal_drain_check: 0.34,
             energy_drain_check: 0.45,
@@ -87,7 +87,7 @@ function ai_types() {
             personality_tags:
             [
                 "PreventsWaste",
-				"vanilla"
+                "vanilla"
             ],
             metal_drain_check: 0.44,
             energy_drain_check: 0.55,
@@ -120,7 +120,7 @@ function ai_types() {
             personality_tags:
             [
                 "PreventsWaste",
-				"vanilla"
+                "vanilla"
             ],
             metal_drain_check: 0.54,
             energy_drain_check: 0.65,
@@ -298,9 +298,9 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"airswarm",
-				"botonly",
-				"doxrush"
+                "airswarm",
+                "botonly",
+                "doxrush"
             ],
             fabber_to_factory_ratio_basic: 1.0,
             fabber_to_factory_ratio_advanced: 3.0,
@@ -308,6 +308,34 @@ function ai_types() {
             basic_to_advanced_factory_ratio: 10,
             factory_alone_on_planet_mod: 0.5,
             min_basic_fabbers: 2,
+            max_basic_fabbers: 100,
+            min_advanced_fabbers: 3,
+            max_advanced_fabbers: 100
+        },
+		'Uber Bot': {
+            display_name: 'Uber Bot',
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.75,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 0.5,
+            adv_eco_mod: 1.4,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+                "botonly"
+            ],
+            fabber_to_factory_ratio_basic: 1.0,
+            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_alone_on_planet_mod: 3.0,
+            basic_to_advanced_factory_ratio: 10,
+            factory_alone_on_planet_mod: 0.5,
+            min_basic_fabbers: 1,
             max_basic_fabbers: 100,
             min_advanced_fabbers: 3,
             max_advanced_fabbers: 100
@@ -328,8 +356,8 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"botonly",
-				"doxrush"
+                "botonly",
+                "doxrush"
             ],
             fabber_to_factory_ratio_basic: 1.0,
             fabber_to_factory_ratio_advanced: 3.0,
@@ -357,9 +385,9 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"ecoboom",
-				"techrush",
-				"threefabber"
+                "ecoboom",
+                "techrush",
+                "threefabber"
             ],
             fabber_to_factory_ratio_basic: 1.5,
             fabber_to_factory_ratio_advanced: 3.0,
@@ -387,8 +415,8 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"techrush",
-				"threefabber"
+                "techrush",
+                "threefabber"
             ],
             fabber_to_factory_ratio_basic: 1.0,
             fabber_to_factory_ratio_advanced: 3.0,
@@ -416,9 +444,9 @@ function ai_types() {
             personality_tags:
             [
                 "uber",
-				"techrush",
-				"threefabber",
-				"turtle"
+                "techrush",
+                "threefabber",
+                "turtle"
             ],
             fabber_to_factory_ratio_basic: 3.0,
             fabber_to_factory_ratio_advanced: 5.0,
