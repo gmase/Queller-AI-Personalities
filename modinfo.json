@@ -1,12 +1,12 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.qQuellerAIPersonalitiesDev",
-  "display_name": "Queller AI Personalities DEV",
+  "identifier": "com.pa.quitch.qQuellerAIPersonalities",
+  "display_name": "Queller AI Personalities",
   "description": "AI personalities for use with the Queller AI server mod.",
   "author": "Quitch",
-  "version": "dev",
-  "build": "87296",
-  "date": "2015/09/09",
+  "version": "1.3.1",
+  "build": "88163",
+  "date": "2015/10/01",
   "signature": "not yet implemented",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-v3-0.65795/",
   "category": [
@@ -14,10 +14,10 @@
     "titans"
   ],
   "product": ["Titans"],
-  "id": "qQuellerAIPersonalitiesDev",
+  "id": "qQuellerAIPersonalities",
   "icon": "http://i.imgur.com/cFJeCgf.gif",
   "dependencies": [
-    "com.pa.quitch.qQuellerAIDev"
+    "com.pa.quitch.qQuellerAI"
   ],
   "priority": 100
 }
