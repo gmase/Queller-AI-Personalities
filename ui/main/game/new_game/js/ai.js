@@ -156,8 +156,8 @@ function ai_types() {
             neural_data_mod: 1.5,
             adv_eco_mod: 0.85,
             adv_eco_mod_alone: 0.85,
-			factory_build_delay_min: 0,
-			factory_build_delay_max: 12,
+			   factory_build_delay_min: 0,
+			   factory_build_delay_max: 12,
             personality_tags:
             [
                 "bronze"
@@ -185,8 +185,8 @@ function ai_types() {
             neural_data_mod: 1.3,
             adv_eco_mod: 1.0,
             adv_eco_mod_alone: 1.0,
-			factory_build_delay_min: 0,
-			factory_build_delay_max: 3,
+			   factory_build_delay_min: 0,
+			   factory_build_delay_max: 3,
             personality_tags:
             [
                 "silver"
