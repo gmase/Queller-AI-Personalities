@@ -1,5 +1,10 @@
 # CHANGELOG
 
+#### v1.3.2 - 2015/10/03
+
+- Does what v1.3.1 said it did
+- No dependency on AI Mod Compatibility Personalities Patch
+
 #### v1.3.1 - 2015/10/01
 
 - Vanilla AI personalities split off into their own mod
