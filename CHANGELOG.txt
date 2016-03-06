@@ -1,5 +1,10 @@
 # CHANGELOG
 
+#### v1.4-beta
+
+- Remove Uber Eco
+- Uber Dox renamed Uber Rush
+
 #### v1.3.2 - 2015/10/03
 
 - Does what v1.3.1 said it did

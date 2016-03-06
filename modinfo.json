@@ -4,9 +4,9 @@
   "display_name": "Queller AI Personalities DEV",
   "description": "AI personalities for use with the Queller AI server mod.",
   "author": "Quitch",
-  "version": "dev",
-  "build": "88163",
-  "date": "2015/10/03",
+  "version": "1.4-beta",
+  "build": "89528",
+  "date": "2016/03/06",
   "signature": "not yet implemented",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-v3-0.65795/",
   "category": [
