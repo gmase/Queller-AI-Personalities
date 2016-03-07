@@ -2,8 +2,11 @@
 
 #### v1.4-beta
 
-- Remove Uber Eco
+- Removed Uber Eco
 - Uber Dox renamed Uber Rush
+- Added Uber Land
+- Added Uber Naval
+- Added Uber Tank
 
 #### v1.3.2 - 2015/10/03
 
