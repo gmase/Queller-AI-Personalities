@@ -268,7 +268,7 @@
             [
                 "uber",
                 "botonly",
-                "doxrush"
+                "rush"
             ],
             fabber_to_factory_ratio_basic: 1.0,
             fabber_to_factory_ratio_advanced: 3.0,
