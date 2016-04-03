@@ -1,12 +1,12 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.qQuellerAIPersonalitiesDev",
-  "display_name": "Queller AI Personalities DEV",
-  "description": "AI personalities for use with the Queller AI server mod.",
+  "identifier": "com.pa.quitch.qQuellerAIPersonalities-dev",
+  "display_name": "Queller AI DEV",
+  "description": "A smarter and more humanlike AI for Titans and Legion. Doesn't affect Galactic War. Works alongside the vanilla AI.",
   "author": "Quitch",
   "version": "1.4-beta",
   "build": "89528",
-  "date": "2016/03/06",
+  "date": "2016/04/03",
   "signature": "not yet implemented",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-v3-0.65795/",
   "category": [
@@ -14,15 +14,15 @@
     "titans"
   ],
   "product": ["Titans"],
-  "id": "qQuellerAIPersonalitiesDev",
+  "id": "qQuellerAIPersonalities-dev",
   "icon": "http://i.imgur.com/cFJeCgf.gif",
-  "dependencies": [
-    "com.pa.quitch.qQuellerAIDev"
-  ],
-  "priority": 100,
   "scenes": {
     "new_game": [
-      "coui://ui/mods/Queller-AI-Personalities/Queller-AI-Personalities.js"
+      "coui://ui/mods/com.pa.quitch.qquellerai/new_game.js"
     ]
-  }
+  },
+  "dependencies": [
+    "com.pa.quitch.qQuellerAI-dev"
+  ],
+  "priority": 100
 }
