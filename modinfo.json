@@ -4,17 +4,15 @@
   "display_name": "Queller AI DEV",
   "description": "A smarter and more humanlike AI for Titans and Legion. Doesn't affect Galactic War. Works alongside the vanilla AI.",
   "author": "Quitch",
-  "version": "1.4-beta",
+  "version": "4.0-beta",
   "build": "89528",
-  "date": "2016/04/03",
-  "signature": "not yet implemented",
+  "date": "2016/04/17",
+  "signature": " ",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-v3-0.65795/",
   "category": [
     "ai",
     "titans"
   ],
-  "product": ["Titans"],
-  "id": "qQuellerAIPersonalities-dev",
   "icon": "http://i.imgur.com/cFJeCgf.gif",
   "scenes": {
     "new_game": [
