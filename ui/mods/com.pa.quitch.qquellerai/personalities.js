@@ -10,11 +10,11 @@
             go_for_the_kill: false,
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
-            neural_data_mod: 1.5,
+            neural_data_mod: 0.75,
             adv_eco_mod: 0.85,
             adv_eco_mod_alone: 0.85,
-			   factory_build_delay_min: 0,
-			   factory_build_delay_max: 12,
+            factory_build_delay_min: 0,
+            factory_build_delay_max: 12,
             personality_tags:
             [
                 "bronze"
@@ -24,10 +24,10 @@
             fabber_alone_on_planet_mod: 1.0,
             basic_to_advanced_factory_ratio: 0,
             factory_alone_on_planet_mod: 0.5,
-            min_basic_fabbers: 5,
-            max_basic_fabbers: 100,
-            min_advanced_fabbers: 2,
-            max_advanced_fabbers: 100
+            min_basic_fabbers: 10,
+            max_basic_fabbers: 20,
+            min_advanced_fabbers: 10,
+            max_advanced_fabbers: 20
         },
         'Silver': {
             display_name: 'Silver',
@@ -39,11 +39,11 @@
             go_for_the_kill: false,
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
-            neural_data_mod: 1.3,
+            neural_data_mod: 1.35,
             adv_eco_mod: 1.0,
             adv_eco_mod_alone: 1.0,
-			   factory_build_delay_min: 0,
-			   factory_build_delay_max: 3,
+            factory_build_delay_min: 0,
+            factory_build_delay_max: 3,
             personality_tags:
             [
                 "silver"
@@ -54,9 +54,9 @@
             basic_to_advanced_factory_ratio: 0,
             factory_alone_on_planet_mod: 0.5,
             min_basic_fabbers: 2,
-            max_basic_fabbers: 100,
-            min_advanced_fabbers: 3,
-            max_advanced_fabbers: 100
+            max_basic_fabbers: 30,
+            min_advanced_fabbers: 1,
+            max_advanced_fabbers: 30
         },
         'Gold': {
             display_name: 'Gold',
@@ -68,7 +68,7 @@
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
-            neural_data_mod: 1.2,
+            neural_data_mod: 1.25,
             adv_eco_mod: 1.1,
             adv_eco_mod_alone: 0.75,
             personality_tags:
@@ -81,9 +81,9 @@
             basic_to_advanced_factory_ratio: 0,
             factory_alone_on_planet_mod: 0.5,
             min_basic_fabbers: 2,
-            max_basic_fabbers: 100,
+            max_basic_fabbers: 40,
             min_advanced_fabbers: 1,
-            max_advanced_fabbers: 100
+            max_advanced_fabbers: 40
         },
         'Platinum': {
             display_name: 'Platinum',
@@ -95,7 +95,7 @@
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
-            neural_data_mod: 1.1,
+            neural_data_mod: 1.15,
             adv_eco_mod: 1.5,
             adv_eco_mod_alone: 0.95,
             personality_tags:
@@ -108,15 +108,15 @@
             basic_to_advanced_factory_ratio: 0,
             factory_alone_on_planet_mod: 0.5,
             min_basic_fabbers: 2,
-            max_basic_fabbers: 100,
+            max_basic_fabbers: 50,
             min_advanced_fabbers: 3,
-            max_advanced_fabbers: 100
+            max_advanced_fabbers: 50
         },
-		'Uber': {
+        'Uber': {
             display_name: 'Uber',
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.75,
+            metal_demand_check: 0.85,
             energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
@@ -139,25 +139,22 @@
             min_advanced_fabbers: 3,
             max_advanced_fabbers: 100
         },
-		'Uber Air': {
-            display_name: 'Uber Air',
+        'Uber Aggressive': {
+            display_name: 'Uber Aggressive',
             metal_drain_check: 0.54,
-            energy_drain_check: 0.65,
-            metal_demand_check: 0.75,
-            energy_demand_check: 0.8,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
-            neural_data_mod: 1.0,
+            neural_data_mod: 1.2,
             adv_eco_mod: 1.3,
             adv_eco_mod_alone: 0.85,
             personality_tags:
             [
-                "uber",
-                "airswarm",
-                "botonly",
-                "doxrush"
+                "uber"
             ],
             fabber_to_factory_ratio_basic: 1.0,
             fabber_to_factory_ratio_advanced: 3.0,
@@ -169,98 +166,207 @@
             min_advanced_fabbers: 3,
             max_advanced_fabbers: 100
         },
-		'Uber Bot': {
-            display_name: 'Uber Bot',
+        'Uber Air': {
+            display_name: 'Uber Air',
             metal_drain_check: 0.54,
-            energy_drain_check: 0.57,
-            metal_demand_check: 0.75,
-            energy_demand_check: 0.72,
-            micro_type: 2,
-            go_for_the_kill: true,
-            priority_scout_metal_spots: true,
-            enable_commander_danger_responses: true,
-            neural_data_mod: 0.5,
-            adv_eco_mod: 1.4,
-            adv_eco_mod_alone: 0.85,
-            personality_tags:
-            [
-                "uber",
-                "botonly"
-            ],
-            fabber_to_factory_ratio_basic: 1.0,
-            fabber_to_factory_ratio_advanced: 3.0,
-            fabber_alone_on_planet_mod: 3.0,
-            basic_to_advanced_factory_ratio: 10,
-            factory_alone_on_planet_mod: 0.5,
-            min_basic_fabbers: 1,
-            max_basic_fabbers: 100,
-            min_advanced_fabbers: 3,
-            max_advanced_fabbers: 100
-        },
-		'Uber Dox': {
-            display_name: 'Uber Dox',
-            metal_drain_check: 0.54,
-            energy_drain_check: 0.57,
-            metal_demand_check: 0.75,
-            energy_demand_check: 0.72,
-            micro_type: 2,
-            go_for_the_kill: true,
-            priority_scout_metal_spots: true,
-            enable_commander_danger_responses: true,
-            neural_data_mod: 0.5,
-            adv_eco_mod: 1.4,
-            adv_eco_mod_alone: 0.85,
-            personality_tags:
-            [
-                "uber",
-                "botonly",
-                "doxrush"
-            ],
-            fabber_to_factory_ratio_basic: 1.0,
-            fabber_to_factory_ratio_advanced: 3.0,
-            fabber_alone_on_planet_mod: 3.0,
-            basic_to_advanced_factory_ratio: 10,
-            factory_alone_on_planet_mod: 0.5,
-            min_basic_fabbers: 1,
-            max_basic_fabbers: 100,
-            min_advanced_fabbers: 3,
-            max_advanced_fabbers: 100
-        },
-		'Uber Eco': {
-            display_name: 'Uber Eco',
-            metal_drain_check: 0.54,
-            energy_drain_check: 0.6,
-            metal_demand_check: 0.71,
-            energy_demand_check: 0.75,
+            energy_drain_check: 0.65,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.8,
             micro_type: 2,
             go_for_the_kill: true,
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
             neural_data_mod: 1.0,
+            adv_eco_mod: 1.3,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+                "air"
+            ],
+            fabber_to_factory_ratio_basic: 1.0,
+            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_alone_on_planet_mod: 3.0,
+            basic_to_advanced_factory_ratio: 10,
+            factory_alone_on_planet_mod: 0.5,
+            min_basic_fabbers: 2,
+            max_basic_fabbers: 100,
+            min_advanced_fabbers: 3,
+            max_advanced_fabbers: 100
+        },
+        'Uber Bot': {
+            display_name: 'Uber Bot',
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 0.5,
+            adv_eco_mod: 1.4,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+                "bot"
+            ],
+            fabber_to_factory_ratio_basic: 1.0,
+            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_alone_on_planet_mod: 3.0,
+            basic_to_advanced_factory_ratio: 10,
+            factory_alone_on_planet_mod: 0.5,
+            min_basic_fabbers: 1,
+            max_basic_fabbers: 100,
+            min_advanced_fabbers: 3,
+            max_advanced_fabbers: 100
+        },
+        'Uber Cautious': {
+            display_name: 'Uber Cautious',
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 0.5,
             adv_eco_mod: 1.0,
             adv_eco_mod_alone: 0.65,
             personality_tags:
             [
                 "uber",
-                "ecoboom",
-                "techrush",
-                "threefabber"
+                "tech"
             ],
-            fabber_to_factory_ratio_basic: 1.5,
-            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_to_factory_ratio_basic: 3.0,
+            fabber_to_factory_ratio_advanced: 5.0,
             fabber_alone_on_planet_mod: 3.0,
-            basic_to_advanced_factory_ratio: 10,
+            basic_to_advanced_factory_ratio: 5,
             factory_alone_on_planet_mod: 0.5,
             min_basic_fabbers: 3,
             max_basic_fabbers: 100,
             min_advanced_fabbers: 3,
             max_advanced_fabbers: 100
         },
-		'Uber Tech': {
+        'Uber Land': {
+            display_name: 'Uber Land',
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 1.0,
+            adv_eco_mod: 1.3,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+                "land"
+            ],
+            fabber_to_factory_ratio_basic: 1.0,
+            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_alone_on_planet_mod: 3.0,
+            basic_to_advanced_factory_ratio: 10,
+            factory_alone_on_planet_mod: 0.5,
+            min_basic_fabbers: 2,
+            max_basic_fabbers: 100,
+            min_advanced_fabbers: 3,
+            max_advanced_fabbers: 100
+        },
+        'Uber Naval': {
+            display_name: 'Uber Naval',
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 1.0,
+            adv_eco_mod: 1.3,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+                "naval"
+            ],
+            fabber_to_factory_ratio_basic: 1.0,
+            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_alone_on_planet_mod: 3.0,
+            basic_to_advanced_factory_ratio: 10,
+            factory_alone_on_planet_mod: 0.5,
+            min_basic_fabbers: 2,
+            max_basic_fabbers: 100,
+            min_advanced_fabbers: 3,
+            max_advanced_fabbers: 100
+        },
+        'Uber Rush': {
+            display_name: 'Uber Rush',
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 1.0,
+            adv_eco_mod: 2.0,
+            adv_eco_mod_alone: 1.5,
+            personality_tags:
+            [
+                "uber",
+                "rush"
+            ],
+            fabber_to_factory_ratio_basic: 1.0,
+            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_alone_on_planet_mod: 3.0,
+            basic_to_advanced_factory_ratio: 10,
+            factory_alone_on_planet_mod: 0.5,
+            min_basic_fabbers: 1,
+            max_basic_fabbers: 100,
+            min_advanced_fabbers: 3,
+            max_advanced_fabbers: 100
+        },
+        'Uber Tank': {
+            display_name: 'Uber Tank',
+            metal_drain_check: 0.54,
+            energy_drain_check: 0.57,
+            metal_demand_check: 0.85,
+            energy_demand_check: 0.72,
+            micro_type: 2,
+            go_for_the_kill: true,
+            priority_scout_metal_spots: true,
+            enable_commander_danger_responses: true,
+            neural_data_mod: 1.0,
+            adv_eco_mod: 1.3,
+            adv_eco_mod_alone: 0.85,
+            personality_tags:
+            [
+                "uber",
+                "tank"
+            ],
+            fabber_to_factory_ratio_basic: 1.0,
+            fabber_to_factory_ratio_advanced: 3.0,
+            fabber_alone_on_planet_mod: 3.0,
+            basic_to_advanced_factory_ratio: 10,
+            factory_alone_on_planet_mod: 0.5,
+            min_basic_fabbers: 2,
+            max_basic_fabbers: 100,
+            min_advanced_fabbers: 3,
+            max_advanced_fabbers: 100
+        },
+        'Uber Tech': {
             display_name: 'Uber Tech',
             metal_drain_check: 0.54,
             energy_drain_check: 0.57,
-            metal_demand_check: 0.75,
+            metal_demand_check: 0.85,
             energy_demand_check: 0.72,
             micro_type: 2,
             go_for_the_kill: true,
@@ -272,41 +378,10 @@
             personality_tags:
             [
                 "uber",
-                "techrush",
-                "threefabber"
+                "tech"
             ],
             fabber_to_factory_ratio_basic: 1.0,
             fabber_to_factory_ratio_advanced: 3.0,
-            fabber_alone_on_planet_mod: 3.0,
-            basic_to_advanced_factory_ratio: 5,
-            factory_alone_on_planet_mod: 0.5,
-            min_basic_fabbers: 5,
-            max_basic_fabbers: 100,
-            min_advanced_fabbers: 3,
-            max_advanced_fabbers: 100
-        },
-		'Uber Turtle': {
-            display_name: 'Uber Turtle',
-            metal_drain_check: 0.54,
-            energy_drain_check: 0.57,
-            metal_demand_check: 0.75,
-            energy_demand_check: 0.72,
-            micro_type: 2,
-            go_for_the_kill: true,
-            priority_scout_metal_spots: true,
-            enable_commander_danger_responses: true,
-            neural_data_mod: 1.0,
-            adv_eco_mod: 1.0,
-            adv_eco_mod_alone: 0.65,
-            personality_tags:
-            [
-                "uber",
-                "techrush",
-                "threefabber",
-                "turtle"
-            ],
-            fabber_to_factory_ratio_basic: 3.0,
-            fabber_to_factory_ratio_advanced: 5.0,
             fabber_alone_on_planet_mod: 3.0,
             basic_to_advanced_factory_ratio: 5,
             factory_alone_on_planet_mod: 0.5,
@@ -314,40 +389,39 @@
             max_basic_fabbers: 100,
             min_advanced_fabbers: 3,
             max_advanced_fabbers: 100
-        },    
+        },
     }
 
     var baseline = model.aiPersonalities.Absurd || {
-            percent_vehicle: 0.45,
-            percent_bot: 0.25,
-            percent_air: 0.2,
-            percent_naval: 0.05,
-            percent_orbital: 0.05,
-            metal_drain_check: 0.54,
-            energy_drain_check: 0.65,
-            metal_demand_check: 0.71,
-            energy_demand_check: 0.8,
-            micro_type: 2,
-            go_for_the_kill: true,
-            priority_scout_metal_spots: true,
-            enable_commander_danger_responses: true,
-            neural_data_mod: 1.0,
-            adv_eco_mod: 1.3,
-            adv_eco_mod_alone: 0.85,
-            fabber_to_factory_ratio_basic: 1.0,
-            fabber_to_factory_ratio_advanced: 1.0,
-            fabber_alone_on_planet_mod: 2.0,
-            basic_to_advanced_factory_ratio: 0,
-            factory_alone_on_planet_mod: 0.5,
-            min_basic_fabbers: 2,
-            max_basic_fabbers: 6,
-            min_advanced_fabbers: 3,
-            max_advanced_fabbers: 20
+        percent_vehicle: 0.45,
+        percent_bot: 0.25,
+        percent_air: 0.2,
+        percent_naval: 0.05,
+        percent_orbital: 0.05,
+        metal_drain_check: 0.54,
+        energy_drain_check: 0.65,
+        metal_demand_check: 0.71,
+        energy_demand_check: 0.8,
+        micro_type: 2,
+        go_for_the_kill: true,
+        priority_scout_metal_spots: true,
+        enable_commander_danger_responses: true,
+        neural_data_mod: 1.0,
+        adv_eco_mod: 1.3,
+        adv_eco_mod_alone: 0.85,
+        fabber_to_factory_ratio_basic: 1.0,
+        fabber_to_factory_ratio_advanced: 1.0,
+        fabber_alone_on_planet_mod: 2.0,
+        basic_to_advanced_factory_ratio: 0,
+        factory_alone_on_planet_mod: 0.5,
+        min_basic_fabbers: 2,
+        max_basic_fabbers: 6,
+        min_advanced_fabbers: 3,
+        max_advanced_fabbers: 20
     }
     Object.keys(extensions).forEach(function(name) {
         extensions[name] = _.extend(JSON.parse(JSON.stringify(baseline)), extensions[name])
         extensions[name].name = name
-        extensions[name].display_name = name
     })
 
     _.extend(model.aiPersonalities, extensions)
