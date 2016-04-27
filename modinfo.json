@@ -1,12 +1,12 @@
 {
   "context": "client",
   "identifier": "com.pa.quitch.qQuellerAIPersonalities-dev",
-  "display_name": "Queller AI DEV",
+  "display_name": "Queller AI Client DEV",
   "description": "A smarter and more humanlike AI for Titans and Legion. Doesn't affect Galactic War. Works alongside the vanilla AI.",
   "author": "Quitch",
-  "version": "4.0.0-beta",
+  "version": "4.0.1-beta",
   "build": "89528",
-  "date": "2016/04/17",
+  "date": "2016/04/27",
   "signature": " ",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-v3-0.65795/",
   "category": [
