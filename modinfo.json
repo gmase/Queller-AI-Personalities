@@ -1,7 +1,7 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.qQuellerAIPersonalities-dev",
-  "display_name": "Queller AI Client DEV",
+  "identifier": "com.pa.quitch.qQuellerAIPersonalities",
+  "display_name": "Queller AI Client",
   "description": "A smarter and more humanlike AI for Titans and Legion. Doesn't affect Galactic War. Works alongside the vanilla AI.",
   "author": "Quitch",
   "version": "4.0.1",
@@ -20,7 +20,7 @@
     ]
   },
   "dependencies": [
-    "com.pa.quitch.qQuellerAI-dev"
+    "com.pa.quitch.qQuellerAI"
   ],
   "priority": 100
 }
