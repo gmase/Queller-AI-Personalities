@@ -1,8 +1,8 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.qQuellerAIPersonalities-dev",
-  "display_name": "Queller AI Client DEV",
-  "description": "A smarter and more humanlike AI for Titans and Legion. Doesn't affect Galactic War. Works alongside the vanilla AI.",
+  "identifier": "com.pa.quitch.qQuellerAIPersonalities",
+  "display_name": "Queller AI Client",
+  "description": "A smarter and more humanlike AI for Titans and Legion. Doesn't affect Galactic War. Normal through Absurd remain the vanilla AI, while Bronze through Uber are Queller. See forum thread below for more details on the differences between difficulties.",
   "author": "Quitch",
   "version": "4.0.3",
   "build": "94684",
@@ -20,7 +20,7 @@
     ]
   },
   "dependencies": [
-    "com.pa.quitch.qQuellerAI-dev"
+    "com.pa.quitch.qQuellerAI"
   ],
   "priority": 100
 }
