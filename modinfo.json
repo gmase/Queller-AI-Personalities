@@ -6,7 +6,7 @@
   "author": "Quitch",
   "version": "4.0.4-beta",
   "build": "94684",
-  "date": "2016/06/12",
+  "date": "2016/07/07",
   "signature": " ",
   "forum": "https://forums.uberent.com/threads/rel-server-queller-ai-v3-0.65795/",
   "category": [
@@ -22,5 +22,6 @@
   "dependencies": [
     "com.pa.quitch.qQuellerAI-dev"
   ],
-  "priority": 100
+  "priority": 100,
+  "hidden": true
 }
