@@ -23,5 +23,6 @@
     "com.pa.quitch.qQuellerAI-dev"
   ],
   "priority": 100,
-  "hidden": true
+  "hidden": true,
+  "titansOnly": true
 }
