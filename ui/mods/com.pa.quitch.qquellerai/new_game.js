@@ -252,8 +252,8 @@ function qQuellerAI() {
                 min_advanced_fabbers: 3,
                 max_advanced_fabbers: 100
             },
-            'Uber FFA': {
-                display_name: 'Uber FFA',
+            'Uber Cautious': {
+                display_name: 'Uber Cautious',
                 metal_drain_check: 0.54,
                 energy_drain_check: 0.57,
                 metal_demand_check: 0.85,
@@ -263,20 +263,19 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 0.5,
-                adv_eco_mod: 1.0,
-                adv_eco_mod_alone: 0.65,
+                adv_eco_mod: 1.3,
+                adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
                     "uber",
-                    "ffa",
                     "tech"
                 ],
-                fabber_to_factory_ratio_basic: 3.0,
-                fabber_to_factory_ratio_advanced: 5.0,
+                fabber_to_factory_ratio_basic: 1.0,
+                fabber_to_factory_ratio_advanced: 3.0,
                 fabber_alone_on_planet_mod: 3.0,
-                basic_to_advanced_factory_ratio: 5,
+                basic_to_advanced_factory_ratio: 10,
                 factory_alone_on_planet_mod: 0.5,
-                min_basic_fabbers: 3,
+                min_basic_fabbers: 2,
                 max_basic_fabbers: 100,
                 min_advanced_fabbers: 3,
                 max_advanced_fabbers: 100
