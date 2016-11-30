@@ -125,7 +125,7 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 1.15,
-                adv_eco_mod: 1.15,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.75,
                 personality_tags:
                 [
@@ -145,11 +145,31 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 1.0,
-                adv_eco_mod: 1.3,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
                     "uber"
+                ],
+                min_basic_fabbers: 2,
+                min_advanced_fabbers: 1
+            },
+            'Uber Experimental': {
+                display_name: 'Experimental',
+                metal_drain_check: 0.54,
+                energy_drain_check: 0.57,
+                metal_demand_check: 0.85,
+                energy_demand_check: 0.72,
+                micro_type: 2,
+                go_for_the_kill: true,
+                priority_scout_metal_spots: true,
+                enable_commander_danger_responses: true,
+                neural_data_mod: 1.0,
+                adv_eco_mod: 1.0,
+                adv_eco_mod_alone: 0.85,
+                personality_tags:
+                [
+                    "experimental"
                 ],
                 min_basic_fabbers: 2,
                 min_advanced_fabbers: 1
@@ -165,7 +185,7 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 1.2,
-                adv_eco_mod: 1.3,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
@@ -192,7 +212,7 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 1.0,
-                adv_eco_mod: 1.3,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
@@ -213,7 +233,7 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 0.5,
-                adv_eco_mod: 1.3,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
@@ -254,7 +274,7 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 1.0,
-                adv_eco_mod: 1.3,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
@@ -275,7 +295,7 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 1.0,
-                adv_eco_mod: 1.3,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
@@ -283,6 +303,27 @@ function qQuellerAI() {
                     "naval"
                 ],
                 min_basic_fabbers: 2,
+                min_advanced_fabbers: 1
+            },
+            'Uber Orbital': {
+                display_name: 'Uber Orbital',
+                metal_drain_check: 0.54,
+                energy_drain_check: 0.57,
+                metal_demand_check: 0.85,
+                energy_demand_check: 0.72,
+                micro_type: 2,
+                go_for_the_kill: true,
+                priority_scout_metal_spots: true,
+                enable_commander_danger_responses: true,
+                neural_data_mod: 1.0,
+                adv_eco_mod: 1.0,
+                adv_eco_mod_alone: 0,
+                personality_tags:
+                [
+                    "uber",
+                    "orbital"
+                ],
+                min_basic_fabbers: 3,
                 min_advanced_fabbers: 1
             },
             'Uber Rush': {
@@ -317,7 +358,7 @@ function qQuellerAI() {
                 priority_scout_metal_spots: true,
                 enable_commander_danger_responses: true,
                 neural_data_mod: 1.0,
-                adv_eco_mod: 1.3,
+                adv_eco_mod: 1.0,
                 adv_eco_mod_alone: 0.85,
                 personality_tags:
                 [
@@ -326,28 +367,7 @@ function qQuellerAI() {
                 ],
                 min_basic_fabbers: 2,
                 min_advanced_fabbers: 1
-            },
-            'Uber Tech': {
-                display_name: 'Uber Tech',
-                metal_drain_check: 0.54,
-                energy_drain_check: 0.57,
-                metal_demand_check: 0.85,
-                energy_demand_check: 0.72,
-                micro_type: 2,
-                go_for_the_kill: true,
-                priority_scout_metal_spots: true,
-                enable_commander_danger_responses: true,
-                neural_data_mod: 1.0,
-                adv_eco_mod: 0,
-                adv_eco_mod_alone: 0,
-                personality_tags:
-                [
-                    "uber",
-                    "tech"
-                ],
-                min_basic_fabbers: 3,
-                min_advanced_fabbers: 1
-            },
+            }
         }
 
         var baseline = aiPersonalities.Absurd || {
@@ -370,7 +390,7 @@ function qQuellerAI() {
             priority_scout_metal_spots: true,
             enable_commander_danger_responses: true,
             neural_data_mod: 1.0,
-            adv_eco_mod: 1.3,
+            adv_eco_mod: 1.0,
             adv_eco_mod_alone: 0.85,
             fabber_to_factory_ratio_basic: 1.0,
             fabber_to_factory_ratio_advanced: 1.0,
